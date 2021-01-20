@@ -1,25 +1,23 @@
 # ZOHO-test
 programming round 2
 
-Problem :
-You are to program an Automated Teller Machine (ATM) to show the Main Menu specified
+To program about an Automated Teller Machine (ATM) to show the Main Menu specified
 below and perform the list of tasks given.
 1. Load Cash to ATM
 2. Show Customer Details
 3. Show ATM Operations
 
 Task 1 : Load cash to ATM
-The ATM will be initially empty and you are required to programatically feed money
-into the machine, along with specific currency denominations. Maintain the currency and
-denominations in a suitable data structure.
+  steps included in loading money into the machine:
+       1.Getting input of denominatins,notes from the user.
+       2.The values of the notes can be calculated .
 
 Task 2 : Maintain Customer Details
-Using simple Data Structure, maintain the following Customer Details in a separate
-file, with which we will be performing further operations and display the details in a tabular
-
+  1.Getting input of account holder name,account number,pin number ,account balance.
+  2.The values are printed.
+  
 Task 3 : Handle ATM Process
-On selecting this option, ask user to input Account Number and Pin Number. After
-validation, the customer should be given the following options
+ Getting input from the user to print the following operations:
 1. Check Balance
 2. Withdraw Money
 3. Transfer Money
